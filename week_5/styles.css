@@ -1,0 +1,39 @@
+.imp_lorem {
+    color : cadetblue;
+    background-color: black;
+    font-weight: 500;
+}
+
+/* article > p {
+    color : darkblue;
+    background-color: aqua;
+} */
+
+/* h1 ~ p {
+    border : 2px solid rebeccapurple;
+    font-weight: 800;
+    background-color: darkgoldenrod;
+}  */
+
+/* h1 + p {
+    border : 2px solid rebeccapurple;
+    font-weight: 800;
+    background-color: darkgoldenrod;
+}  */
+
+/* article > p[class="above_img"] {
+    color : black;
+    background-color: mediumspringgreen;
+    font-weight: bold;
+} */
+@media (max-width:768px) {
+    article{
+        font-size: large;
+    }
+}
+
+@media all and (450px <width 768px){
+    article{
+        
+    }
+}
